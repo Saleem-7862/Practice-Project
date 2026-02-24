@@ -40,7 +40,7 @@ class TestBrowser:
         driver.find_element(By.ID, "signInBtn").click()
         driver.find_element(By.LINK_TEXT, "Shop").click()
         products = driver.find_elements(By.XPATH, "//div[@class='card h-100']")
-        time.sleep(5)
+        # time.sleep(5)
         for pro in products:
             productname = pro.find_element(By.XPATH, "div/h4/a").text
             if productname == "Blackberry":
