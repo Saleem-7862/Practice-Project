@@ -11,27 +11,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 @pytest.mark.usefixtures("driver")
 class TestBrowser:
-    # def test_URL(self, chrome_Driver):
-    #     driver = chrome_Driver
-    #     driver.get("https://rahulshettyacademy.com/AutomationPractice/")
-    #     actions = ActionChains(driver)
-    #     actions.move_to_element(driver.find_element(By.XPATH, "//button[@id='mousehover']")).perform()
-    #     # actions.context_click(driver.find_element(By.LINK_TEXT, "Top")).perform()
-    #     time.sleep(2)
-    #     actions.move_to_element(driver.find_element(By.LINK_TEXT, "Reload")).click().perform()
-    #
-    # def test_Login(self, chrome_Driver):
-    #     driver = chrome_Driver
-    #     driver.find_element(By.XPATH, )
-    #
-    # def test_URL(self, driver):
-    #     driver.get("https://100.106.212.42")
-    #
-    # def test_Login(self, driver):
-    #     driver.find_element(By.XPATH, "//*[@id='j_username']").send_keys("warthog3@dell.com")
-    #     driver.find_element(By.XPATH, "//*[@id='j_password']").send_keys("DellWMS#1234")
-    #     driver.find_element(By.XPATH, "//*[@id='signInButton']").click()
-    #     time.sleep(5)
 
     def test_testing(self, driver):
         driver.get("https://rahulshettyacademy.com/loginpagePractise/")
